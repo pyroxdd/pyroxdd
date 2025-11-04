@@ -73,10 +73,9 @@
 		&nbsp;&nbsp;single shader for everything (also not ideal)<br>
 		&nbsp;&nbsp;no separate thread (TPS = FPS)<br>
 		&nbsp;&nbsp;custom text rendering<br>
-		>>update/render thread separation + sub-tick interpolation<br>
+		&nbsp;&nbsp;update/render thread separation + sub-tick interpolation<br>
 		&nbsp;&nbsp;using vertices and indices more, for visibility order<br>
-		&nbsp;&nbsp;depth buffer understanding<br>
-		&nbsp;&nbsp;frame buffer understanding (might make graphics editor)<br>
+		>>frame buffer understanding, making graphics editor<br>
 		&nbsp;&nbsp;VFX attempt<br>
 	</blockquote></details>
 	<details><summary><strong>audio</strong></summary><blockquote>
@@ -85,6 +84,6 @@
 		&nbsp;&nbsp;OpenAL<br>
 		&nbsp;&nbsp;audio synthesis<br>
 	</blockquote></details>
-	<small><br>progress updated October 11, 2025<br><br>discord: <strong>pyroxdd</strong></small>
+	<small><br>progress updated November 4, 2025<br><br>discord: <strong>pyroxdd</strong></small>
 </blockquote></details>
 <br>
