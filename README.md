@@ -1,4 +1,4 @@
-<h3>hi, i'm stupid enough to work on my own game engine!</h3>
+<h3>self diagnosed autistic game engineer with tunnel vision</h3>
 
 <details><summary><strong>rules i follow</strong></summary><blockquote>
 	❌stable<br>
