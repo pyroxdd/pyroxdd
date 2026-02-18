@@ -8,22 +8,15 @@
 	❌safe<br>
 	❌tested<br>
 	❌planning<br>
-	❌bounds checking<br>
 	❌error handling<br>
 	<br>
 	✅memory leaks<br>
 	✅undefined behavior<br>
 	✅works on my machine<br>
-	✅-O3<br>
 	✅segmentation faults<br>
 	✅printf, the only debugger<br>
 	✅improvisation<br>
-	✅UDP<br>
 	✅runtime errors<br>
-	✅out of bounds memory access<br>
-	✅race conditions<br>
-	✅deadlocks<br>
-	✅git push --force<br>
 	✅ignoring compiler warnings<br>
 	✅fatal error: too many errors emitted, stopping now<br>
 	<br>
@@ -75,8 +68,10 @@
 		&nbsp;&nbsp;custom text rendering<br>
 		&nbsp;&nbsp;update/render thread separation + sub-tick interpolation<br>
 		&nbsp;&nbsp;using vertices and indices more, for visibility order<br>
-		>>frame buffer understanding, making graphics editor<br>
-		&nbsp;&nbsp;VFX attempt<br>
+		&nbsp;&nbsp;frame buffer understanding, making graphics editor<br>
+		&nbsp;&nbsp;tiny C-like language into wasm<br>
+		&nbsp;&nbsp;VFX editor<br>
+		>>WebGPU?<br>
 	</blockquote></details>
 	<details><summary><strong>audio</strong></summary><blockquote>
 		&nbsp;&nbsp;audio callback<br>
@@ -84,6 +79,6 @@
 		&nbsp;&nbsp;OpenAL<br>
 		&nbsp;&nbsp;audio synthesis<br>
 	</blockquote></details>
-	<small><br>progress updated November 4, 2025<br><br>discord: <strong>pyroxdd</strong></small>
+	<small><br>progress updated February 18, 2026<br><br>discord: <strong>pyroxdd</strong></small>
 </blockquote></details>
 <br>
