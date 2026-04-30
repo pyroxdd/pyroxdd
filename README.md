@@ -1,4 +1,6 @@
-<h3>self diagnosed autistic game engineer with tunnel vision</h3>
+<h3>delusional autistic game engineer</h3>
+
+![alt text](just-keep-coding.png)
 
 <details><summary><strong>rules i follow</strong></summary><blockquote>
 	❌stable<br>
@@ -30,16 +32,18 @@
 	" >> " = something im currently focusing on,<br>
 	anything above it means i already went through it,<br>
 	anything below it means i am planning to look into it<br><br></small>
-	<details><summary><strong>engine/framework/language</strong></summary><blockquote>
-		&nbsp;&nbsp;Unity, raw HTML/JS, Unreal, Godot, Monogame, Raylib, Bevy, SDL, Roblox Studio<br>
-		> staying with SDL2, C++<br>
-		&nbsp;&nbsp;might try at some point: Vulkan, DirectX, SFML, GameMaker, GDevelop<br>
+	<details><summary><strong>engine/framework/graphics-library</strong></summary><blockquote>
+		&nbsp;&nbsp;Unity, raw HTML/JS, Unreal, Godot, Monogame, Raylib, Bevy, SDL, OpenGL (OpenGL-ES, WebGL), Roblox Studio<br>
+		> SDL2, WebGPU<br>
+		&nbsp;&nbsp;might try at some point: Vulkan, DirectX, SFML, Love2D, the Forge, bgfx<br>
 	</blockquote></details>
 	<details><summary><strong>tooling</strong></summary><blockquote>
 		&nbsp;&nbsp;Git - Github<br>
 		&nbsp;&nbsp;Cmake<br>
 		&nbsp;&nbsp;Emscripten - WASM<br>
-		> Lua<br>
+		&nbsp;&nbsp;Lua<br>
+		&nbsp;&nbsp;DPP discord bot (not really a tool)<br>
+		>>custom codegen (in python)<br>
 		&nbsp;&nbsp;Tracy profiler<br>
 	</blockquote></details>
 	<details><summary><strong>networking</strong></summary><blockquote>
@@ -47,7 +51,8 @@
 		&nbsp;&nbsp;tried raw UDP<br>
 		&nbsp;&nbsp;decided to stay with TCP<br>
 		&nbsp;&nbsp;sent spatially partitioned entity component data<br>
-		> better dirty ecs component tracking to send only changes<br>
+		&nbsp;&nbsp;better dirty ecs component tracking to send only changes<br>
+		> WebTransport - QUIC, imquic<br>
 		&nbsp;&nbsp;grid based server-side fog of war<br>
 		&nbsp;&nbsp;VPS?<br>
 		&nbsp;&nbsp;UDP again?<br>
@@ -56,7 +61,8 @@
 		&nbsp;&nbsp;entt<br>
 		&nbsp;&nbsp;serializable ECS components for networking/saving<br>
 		&nbsp;&nbsp;spatially partitioned collision detection with swept box cast<br>
-		> linear and angular velocity<br>
+		&nbsp;&nbsp;linear and angular velocity<br>
+		> flecs (with codegen)<br>
 		&nbsp;&nbsp;more types of colliders, tilemap collider, SDF colliders?<br>
 	</blockquote></details>
 	<details><summary><strong>rendering</strong></summary><blockquote>
@@ -71,14 +77,23 @@
 		&nbsp;&nbsp;frame buffer understanding, making graphics editor<br>
 		&nbsp;&nbsp;tiny C-like language into wasm<br>
 		&nbsp;&nbsp;VFX editor<br>
-		>>WebGPU?<br>
+		> WebGPU<br>
 	</blockquote></details>
 	<details><summary><strong>audio</strong></summary><blockquote>
 		&nbsp;&nbsp;audio callback<br>
-		> spectrogram<br>
-		&nbsp;&nbsp;OpenAL<br>
-		&nbsp;&nbsp;audio synthesis<br>
+		&nbsp;&nbsp;spectrogram<br>
+		&nbsp;&nbsp;spectral synthesis<br>
+		> digital signal processing<br>
+		&nbsp;&nbsp;DSP editor<br>
 	</blockquote></details>
-	<small><br>progress updated February 18, 2026<br><br>discord: <strong>pyroxdd</strong></small>
+	<details><summary><strong>language</strong></summary><blockquote>
+		&nbsp;&nbsp;C#, JS, Rust, SQL, PHP<br>
+		> C++, GLSL, WGSL, custom DSL for use with ECS<br>
+	</blockquote></details>
+	<details><summary><strong>LLM</strong></summary><blockquote>
+		&nbsp;&nbsp;gpt (browser), gemini (browser), gemini cli (decent amount of time until nerfed), cursor (barely tried), claude (barely tried)<br>
+		> codex cli plus (reaching limit every week)<br>
+	</blockquote></details>
+	<small><br>progress updated April 30, 2026<br><br>discord: <strong>pyroxdd</strong></small>
 </blockquote></details>
 <br>
