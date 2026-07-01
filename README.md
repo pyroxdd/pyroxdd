@@ -3,7 +3,8 @@
 	<strong>genre</strong>: <kbd>sandbox</kbd> <kbd>2d</kbd> <kbd>top-down</kbd> <kbd>survival</kbd> <kbd>multiplayer</kbd><br>
 	<strong>inspiration</strong>: <kbd>Mindustry</kbd> <kbd>Terraria</kbd> <kbd>Minecraft</kbd> <kbd>Rust</kbd><br>
 	<strong>hook</strong>: <kbd>nested tilemaps</kbd> <small>still idea phase, gdd coming soon hopefully</small><br>
-	<strong>looking for</strong>: people who think this has potential and have spent thousands of hours in games from this genre<br>
+	<strong>looking for</strong>: people who think this has potential and have spent thousands of hours in games from this genre, but also anyone else who likes this, not just programmers, anyone. helping would be nice, but discussion is fine too!<br><br>
+	the initial idea is impossible to achieve richt away, i will create different games on the way there, currently looking into replayability in terms of game content interactions in context of ECS. that means different kinds of events like: "onhit", "onkill", "onattack" and so on.<br>
 </h4>
 
 <details><summary><strong>rules</strong></summary><blockquote>
