@@ -2,9 +2,9 @@
 <h4>
 	<strong>genre</strong>: <kbd>sandbox</kbd> <kbd>2d</kbd> <kbd>top-down</kbd> <kbd>survival</kbd> <kbd>multiplayer</kbd><br>
 	<strong>inspiration</strong>: <kbd>Mindustry</kbd> <kbd>Terraria</kbd> <kbd>Minecraft</kbd> <kbd>Rust</kbd><br>
-	<strong>hook</strong>: <kbd>nested tilemaps</kbd> <small>still idea phase, gdd coming soon hopefully</small><br>
+	<strong>hook</strong>: <kbd>nested tilemaps</kbd> still idea phase, gdd coming soon hopefully<br>
 	<strong>looking for</strong>: people who think this has potential and have spent thousands of hours in games from this genre, but also anyone else who likes this, not just programmers, anyone. helping would be nice, but discussion is fine too!<br><br>
-	the initial idea is impossible to achieve richt away, i will create different games on the way there, currently looking into replayability in terms of game content interactions in context of ECS. that means different kinds of events like: "onhit", "onkill", "onattack" and so on.<br>
+	the initial idea is impossible to achieve right away, i will create different games on the way there, currently looking into replayability in terms of game content interactions in context of ECS. that means different kinds of events like: "onhit", "onkill", "onattack" and so on.<br>
 </h4>
 
 <details><summary><strong>rules</strong></summary><blockquote>
@@ -25,15 +25,15 @@
 	✅neighbours wifi<br>
 	✅never paid for it<br>
 	<br>
-	<small>some of it is sarcasm, some of it is true!</small><br>
-	<small>the only thing that really matters is time, motivation and consistency<br>failures and reality checks are expected</small>
+	some of it is sarcasm, some of it is true!<br>
+	the only thing that really matters is time, motivation and consistency<br>failures and reality checks are expected
 </blockquote></details>
 
 <details><summary><strong>tech</strong></summary><blockquote>
-	<small>
 	🌕 already went through it<br>
 	🌗 working on it<br>
-	🌑 planning to look into it<br><br></small>
+	🌑 planning to look into it<br><br>
+	currently focusing on ECS codegen integration<br><br>
 	<details><summary><strong>engine/framework/graphics-library</strong></summary><blockquote>
 		🌕 Unity, HTML/JS (2d rendering context), Unreal, Godot, Monogame, Raylib, Bevy, SDL, OpenGL (OpenGL-ES, WebGL), Roblox Studio<br>
 		🌗 SDL2, WebGPU<br>
@@ -43,7 +43,7 @@
 		🌕 Git - Github<br>
 		🌕 Cmake<br>
 		🌕 Emscripten - WASM<br>
-		🌗 custom codegen (in python)<br>
+		🌗 python codegen<br>
 		🌑 Tracy profiler<br>
 	</blockquote></details>
 	<details><summary><strong>networking</strong></summary><blockquote>
@@ -62,8 +62,20 @@
 		🌕 serializable ECS components for networking/saving<br>
 		🌕 spatially partitioned collision detection with swept box cast<br>
 		🌕 linear and angular velocity<br>
-		🌗 flecs (with codegen)<br>
+		🌗 flecs<br>
+		🌗 tile entities<br>
 		🌑 more types of colliders, tilemap collider, SDF colliders?<br>
+	</blockquote></details>
+	<details><summary><strong>codegen</strong></summary><blockquote>
+		🌗 using python, extending C++ with tags and special keywords<br>
+		🌗 ECS integration - component structs<br>
+		🌗 residency tags and transitioning between them (SERVER -> netcode -> CLIENT -> mirroring/snapshots -> RENDER)<br>
+		🌗 shader components (shader logic defined directly in component as a function, component variables have automatically generated GPU layout), this includes vertex shader and fragment shader<br>
+		🌗 it is also possible to define compute shader blocks which are primarily used by particle emitters, those are also directly placed in C++<br>
+		🌗 internal components which rely on other components<br>
+		🌗 component hierarchy (one component automatically creates other component, several components rely on other component, but that component can only have one child component of this kind, forcing a replacement. there are also required variables, components and events. this essentially works as OOP class inheritance)<br>
+		🌗 built-in events (add, remove and set, theres also update event, which is converted to systems under the hood), and custom events with queries, all events have optional named ordering and are defined as regular functions with a special "ON(my_event)" keyword.<br>
+		🌗 "dense case" feature, currently used for efficient 2D tilemap storing, used primarily with enums. codegen figures out enum element count, automatically appends to switch case, this makes it possible to store many kinds of tiles in tiny value such as 16bit integer, tiles will have their enum defined in themselves, most commonly a rotation, which is an enum of 4 elements. simple wall tile without rotation will take up one space, while a tile we can rotate will take up 4. if a tile also has growth enum with 3 elements and can also rotate, it will take up 12 lines in a switch case. there is also offset enum used in pairs by the offset tile, enabling clean multi-tile structure references (currently a 7x7 space)<br>
 	</blockquote></details>
 	<details><summary><strong>procgen</strong></summary><blockquote>
 		🌕 rectangular structures with pathways<br>
@@ -75,7 +87,7 @@
 		🌑 cave carving<br>
 	</blockquote></details>
 	<details><summary><strong>editor</strong></summary><blockquote>
-		<small>live preview simulated editor for: <kbd>graphics</kbd> <kbd>audio</kbd> <kbd>entity</kbd> <kbd>code</kbd></small><br>
+		live preview simulated editor for: <kbd>graphics</kbd> <kbd>audio</kbd> <kbd>entity</kbd> <kbd>code</kbd><br>
 		🌕 shaders<br>
 		🌕 ecs<br>
 		🌗 dsp<br>
@@ -117,19 +129,19 @@
 		🌕 gpt (browser), gemini (browser), gemini cli (decent amount of time until nerfed), cursor (barely tried), claude (barely tried)<br>
 		🌕 local models: qwen coder, gemma. using: ollama, aider, LM studio, roocode - not enough VRAM and RAM for it to be smart enough<br>
 		🌗 codex plus<br>
-		<small>secret AI opinion: i believe its extremely powerful, but using it correctly is difficult, using it incorrectly can cause serious issues, so basically the same as C++ and GPU programming :) like taming a dragon<br>ai is what made me realize the importance of technical debt</small><br>
+		secret AI opinion: i believe its extremely powerful, but using it correctly is difficult, using it incorrectly can cause serious issues, so basically the same as C++ and GPU programming :)<br>ai is what made me realize the importance of technical debt<br>
 	</blockquote></details>
 </blockquote></details>
 
 <details><summary><strong>personal</strong></summary><blockquote>
 	from: <kbd>Czechia</kbd><br>
-	age: <kbd>22</kbd><small>m</small><br>
+	age: <kbd>22</kbd><br>
 	career: <kbd>CEO @ unemployed</kbd><br>
-	job experience: <kbd>0</kbd> <small>in total less than a year</small><br>
-	education: <kbd>graduation</kbd> <small>worthless nowadays</small><br>
-	first touched C: <kbd>3 years ago</kbd> <small>thats when i believe a software developer is born :)</small><br>
+	job experience: <kbd>0</kbd> in total less than a year<br>
+	education: <kbd>graduation</kbd> worthless nowadays<br>
+	first touched C: <kbd>3 years ago</kbd> thats when i believe a software developer is born :)<br>
 	personal info: <kbd>sold</kbd><br>
-	friends: <kbd>only you</kbd> <small>DM me the word "frog" :)</small><br>
+	friends: <kbd>only you</kbd> DM me the word "frog" :)<br>
 </blockquote></details>
-<small>progress updated: <strong>June 23, 2026</strong><br>
-discord: <strong>pyroxdd</strong></small>
+progress updated: <strong>September 4, 2026</strong><br>
+discord: <strong>pyroxdd</strong>
