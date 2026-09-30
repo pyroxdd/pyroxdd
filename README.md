@@ -33,7 +33,7 @@
 	🌕 already went through it<br>
 	🌗 working on it<br>
 	🌑 planning to look into it<br><br>
-	currently focusing on ECS codegen integration<br><br>
+	currently focusing on migration to Odin content side with minimal codegen this time<br><br>
 	<details><summary><strong>engine/framework/graphics-library</strong></summary><blockquote>
 		🌕 Unity, HTML/JS (2d rendering context), Unreal, Godot, Monogame, Raylib, Bevy, SDL, OpenGL (OpenGL-ES, WebGL), Roblox Studio<br>
 		🌕 SDL2<br>
