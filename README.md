@@ -7,6 +7,21 @@
 	making prototypes on the way there, currently looking into replayability using ECS events ("onhit", "onkill", "onattack"...).<br>
 </h4>
 
+
+
+<details><summary><strong>why???</strong></summary><blockquote>
+	because..<br><br>
+	unity felt uncomfortable with all the bloat and the strange mix of its OOP objects and DOTS.. i left before the runtime fee happened!<br>
+	unreal engine was extreme overkill for my goals, too much stuff i didnt need, extremely slow to open and set up<br>
+	i barely tried godot, but i assumed i would face the same issues as i did with unity<br>
+	monogame had menus that i hated, and i wanted to try something other than C#<br>
+	bevy had borrow checking that i wasnt ready for<br>
+	raylib was efficient, but i hated how i still had to create workarounds for special drawing techniques such as tilemaps.<br>
+	C++ was supposedly the game engine language, so i ended up with SDL2, where i stayed for good two or three years, i recently switched to Sokol and i might try Bevy with Rust again.<br><br>
+	overall, i hate how all of the frameworks make a lot of things easier, but the things that arent easier, are harder to do instead. im picturing it like staircases in all directions, where each step is something that needs to be done, while these frameworks make lots of these steps smaller, they always have steps that are a lot harder to get past than they would have been otherwise<br>depending on the game that you are making, having all steps with the same height is often better for the long run<br>(me using AI is very contradicting, because it makes a lot of things easier, and other things a lot harder too, i am using it because i have the opportunity, and im open to new technologies. i face the change, i dont hide it from myself, but it would probably be better if i ignored it, at least i know what its good for and what i can use it for, when i need it)<br><br>the most successful games made in the engines probably could have easily made their own engine with the amount of effort they put in, they just might not want to admit it, or they didnt think about it<br><br><br>
+	i am not a competent developer and i have no idea how to work in a team. i shall not bother contributing to anyones work, i am not the kind of person to enjoy maintenance, i dont think i will ever create a codebase that will be worth anyones time, so i will just share my high level game engine progress and hope someone finds it informative in some way. i dont think im the kind of person to be making a game engine, im just trying to get a good enough setup to make a game in, also figuring out what is AI capable of in the process
+</blockquote></details>
+
 <details><summary><strong>rules</strong></summary><blockquote>
 	❌stable<br>
 	❌memory safe<br>
@@ -158,5 +173,5 @@
 	personal info: <kbd>sold</kbd><br>
 	if you got this far, DM me the word "frog" on discord :)<br>
 </blockquote></details>
-progress updated: <strong>October 11, 2026</strong><br>
+progress updated: <strong>October 28, 2026</strong><br>
 discord: <strong>pyroxdd</strong>
