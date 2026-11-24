@@ -191,5 +191,5 @@
 	personal info: <kbd>sold</kbd><br>
 	if you got this far, DM me the word "frog" on discord :)<br>
 </blockquote></details>
-progress updated: <strong>October 28, 2026</strong><br>
+progress updated: <strong>November 24, 2026</strong><br>
 discord: <strong>pyroxdd</strong>
